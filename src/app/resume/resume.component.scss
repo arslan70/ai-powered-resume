@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    border-radius: 15px; /* Smooth rectangle */
+    display: flex; /* Arrange links horizontally */
+    flex-direction: row;
+    justify-content: space-around; /* Evenly space out the links */
+    padding: 1em;
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: white; /* Make the links white */
+    text-decoration: none; /* Remove the underline */
+  }
+  
+
+.nav-item {
+  padding: 1em;
+}
+
+.section {
+  height: 816px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#about {
+  background-image: url('/assets/about-background.png');
+}
+.about-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with 60% opacity */
+    border-radius: 15px; /* Smooth rectangle */
+    color: rgb(241, 241, 241); /* White text */
+    padding: 20px;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    margin: 30px;
+    max-height: 80%;
+    overflow: auto; /* Enable scroll if content is longer than the box */
+    font-size: larger;
+  }
+  
+  .about-content h1 {
+    color: #ffffff; /* Change the color of the heading if needed */
+  }
+  
+
+#experience {
+  background-image: url('/assets/experience-background.png');
+}
+.experience-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin-left: 40px;
+    overflow: auto;
+    position: absolute;
+    left: 0;  
+  }
+  
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  .job h2 {
+    color: #f9a826;
+  }
+  
+  .job h3, .job p {
+    color: white;
+  }
+  
+  .job ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+
+#skills {
+  background-image: url('/assets/skills-background.png');
+}
+.skills-content {
+    background-color: rgba(182, 162, 174, 0.6);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  .skills-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .skills-logos img {
+    height: 60px; /* You may need to adjust this based on your logo sizes */
+    margin: 10px;
+  }
+  
+
+/* For tablets and small desktops 
+@media (max-width: 992px) {
+  #about {
+    background-image: url('/assets/about-background-small.jpg');
+  }
+
+  #experience {
+    background-image: url('/assets/experience-background-small.jpg');
+  }
+
+  #skills {
+    background-image: url('/assets/skills-background-small.jpg');
+  }
+} */
+
+/* For mobile phones 
+@media (max-width: 576px) {
+  #about {
+    background-image: url('/assets/about-background-extra-small.jpg');
+  }
+
+  #experience {
+    background-image: url('/assets/experience-background-extra-small.jpg');
+  }
+
+  #skills {
+    background-image: url('/assets/skills-background-extra-small.jpg');
+  }
+}*/
+
+
+footer {
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+  }
+  

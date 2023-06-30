@@ -1,0 +1,43 @@
+# Node.js dependencies
+/node_modules
+
+# Compiled output
+/dist
+
+# Environment variables
+/.env
+
+# Angular generated files
+/*.js
+/*.js.map
+/*.d.ts
+/*.css
+/*.css.map
+/.angular
+
+# Testing and build artifacts
+/karma-coverage/
+/coverage/
+/jasmine-reporters/
+/test-results.xml
+
+# IDE and editor files
+/.idea
+/.vscode
+*.sublime*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.sln.docstates
+*.user
+*.suo
+*.bak
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-error.log*
