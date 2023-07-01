@@ -56,7 +56,13 @@ body {
   }
   
   .about-content h1 {
-    color: #ffffff; /* Change the color of the heading if needed */
+    color: #6a487f;// #ffffff; /* Change the color of the heading if needed */
+  }
+  .about-content h2 {
+    color: #575757;
+  }
+  .about-content p{
+    color: #C0C0C0;
   }
   
 
@@ -90,21 +96,27 @@ body {
   .job ul {
     list-style-type: square;
     margin-left: 20px;
+    color: #C0C0C0;
   }
   
 
 #skills {
   background-image: url('/assets/skills-background.png');
+  flex-direction: column;
+
 }
 .skills-content {
-    background-color: rgba(182, 162, 174, 0.6);
+    background-color:rgba(0, 0, 0, 0.411);
     border-radius: 15px;
     color: white;
-    padding: 20px;
+    padding: 10px;
     width: 60%;
     margin: 20px auto;
   }
-  
+  .skills-content h1 {
+    color: #f9a826;
+    text-align: center;
+}
   .skills-logos {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +125,7 @@ body {
   }
   
   .skills-logos img {
-    height: 60px; /* You may need to adjust this based on your logo sizes */
+    height: 80px; /* You may need to adjust this based on your logo sizes */
     margin: 10px;
   }
   
