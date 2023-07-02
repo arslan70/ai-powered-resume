@@ -45,13 +45,14 @@ body {
     background-color: rgba(0, 0, 0, 0.6); /* Black background with 60% opacity */
     border-radius: 15px; /* Smooth rectangle */
     color: rgb(241, 241, 241); /* White text */
-    padding: 20px;
-    width: 35%;
+    padding: 15px;
+    width: 40%;
     position: absolute;
     right: 0;
     margin: 30px;
-    max-height: 80%;
-    overflow: auto; /* Enable scroll if content is longer than the box */
+    margin-top: 50px;;
+    max-height: 90%;
+    overflow: scroll; /* Enable scroll if content is longer than the box */
     font-size: larger;
   }
   
@@ -73,10 +74,10 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     color: white;
-    padding: 20px;
-    width: 50%;
+    padding: 10px;
+    width: 60%;
     margin-left: 40px;
-    overflow: auto;
+    overflow: scroll;
     position: absolute;
     left: 0;  
   }
@@ -112,6 +113,7 @@ body {
     padding: 10px;
     width: 60%;
     margin: 20px auto;
+    overflow: scroll;
   }
   .skills-content h1 {
     color: #f9a826;
@@ -130,35 +132,35 @@ body {
   }
   
 
-/* For tablets and small desktops 
+ //For tablets and small desktops 
 @media (max-width: 992px) {
   #about {
-    background-image: url('/assets/about-background-small.jpg');
+    background-image: url('/assets/about-background-small.png');
   }
 
   #experience {
-    background-image: url('/assets/experience-background-small.jpg');
+    background-image: url('/assets/experience-background-small.png');
   }
 
   #skills {
-    background-image: url('/assets/skills-background-small.jpg');
+    background-image: url('/assets/skills-background-small.png');
   }
-} */
+} 
 
-/* For mobile phones 
+/* For mobile phones */
 @media (max-width: 576px) {
   #about {
-    background-image: url('/assets/about-background-extra-small.jpg');
+    background-image: url('/assets/about-background-extra-small.png');
   }
 
   #experience {
-    background-image: url('/assets/experience-background-extra-small.jpg');
+    background-image: url('/assets/experience-background-extra-small.png');
   }
 
   #skills {
-    background-image: url('/assets/skills-background-extra-small.jpg');
+    background-image: url('/assets/skills-background-extra-small.png');
   }
-}*/
+}
 
 
 footer {
