@@ -46,7 +46,7 @@ body {
     border-radius: 15px; /* Smooth rectangle */
     color: rgb(241, 241, 241); /* White text */
     padding: 15px;
-    width: 40%;
+    width: 45%;
     position: absolute;
     right: 0;
     margin: 30px;
@@ -77,13 +77,16 @@ body {
     padding: 10px;
     width: 60%;
     margin-left: 40px;
-    overflow: scroll;
     position: absolute;
     left: 0;  
+    max-height: 80%;
+    overflow: scroll;
+
   }
   
   .job {
     margin-bottom: 20px;
+
   }
   
   .job h2 {
@@ -134,6 +137,9 @@ body {
 
  //For tablets and small desktops 
 @media (max-width: 992px) {
+  .nav {
+    font-size: smaller;
+  }
   #about {
     background-image: url('/assets/about-background-small.png');
   }
@@ -149,6 +155,12 @@ body {
 
 /* For mobile phones */
 @media (max-width: 576px) {
+  .nav {
+    font-size: 9px;
+  }
+  .section{
+    font-size: small;
+  }
   #about {
     background-image: url('/assets/about-background-extra-small.png');
   }
