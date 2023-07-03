@@ -42,7 +42,7 @@ body {
   background-image: url('/assets/about-background.png');
 }
 .about-content {
-    background-color: rgba(0, 0, 0, 0.6); /* Black background with 60% opacity */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 60% opacity */
     border-radius: 15px; /* Smooth rectangle */
     color: rgb(241, 241, 241); /* White text */
     padding: 15px;
@@ -50,17 +50,17 @@ body {
     position: absolute;
     right: 0;
     margin: 30px;
-    margin-top: 50px;;
+    margin-top: 50px;
     max-height: 90%;
     overflow: scroll; /* Enable scroll if content is longer than the box */
     font-size: larger;
   }
   
   .about-content h1 {
-    color: #6a487f;// #ffffff; /* Change the color of the heading if needed */
+    color: #8a878c;// #ffffff; /* Change the color of the heading if needed */
   }
   .about-content h2 {
-    color: #575757;
+    color: #8a878c;
   }
   .about-content p{
     color: #C0C0C0;
